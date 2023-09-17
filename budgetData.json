@@ -1,0 +1,32 @@
+{
+	"budget": [{
+			"title": "Eat out",
+			"budget": 30
+		},
+		{
+			"title": "Rent",
+			"budget": 400
+		},
+		{
+			"title": "Groceries",
+			"budget": 150
+		},
+        {
+			"title": "Shopping",
+			"budget": 50
+		},
+        {
+			"title": "Utilities",
+			"budget": 20
+		},
+        {
+			"title": "Travel",
+			"budget": 60
+		},
+        {
+			"title": "Subscription",
+			"budget": 40
+		}
+
+	]
+}
