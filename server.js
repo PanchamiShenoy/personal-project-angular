@@ -1,9 +1,10 @@
 const express = require('express');
+const cors = require('cors');
 const fs = require('fs');
 const app = express();
 const port = 5000;
 
-app.use('/', express.static('public'));
+app.use(cors());
 
 const budget = {
     budget: [
@@ -21,9 +22,7 @@ const budget = {
     },
 
 ]}
-app.get('/hello',(req,res) => {
-    res.send('Hello world');
-});
+
 app.get('/budget', (req, res) => {
     fs.readFile('budgetData.json', 'utf8', (error, data) => {
       if (error) {
